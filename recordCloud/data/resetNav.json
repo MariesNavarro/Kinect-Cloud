@@ -1,0 +1,27 @@
+{
+  "/zoom": {
+    "min": -1000,
+    "max": 1000,
+    "value": 640
+  },
+  "/rotacion_Y": {
+    "min": -360,
+    "max": 360,
+    "value": -15
+  },
+  "/rotacion_X": {
+    "min": -360,
+    "max": 360,
+    "value": 180
+  },
+  "/eje_y": {
+    "min": 0,
+    "max": 600,
+    "value": 300
+  },
+  "/eje_x": {
+    "min": 0,
+    "max": 1000,
+    "value": 660
+  },
+}
