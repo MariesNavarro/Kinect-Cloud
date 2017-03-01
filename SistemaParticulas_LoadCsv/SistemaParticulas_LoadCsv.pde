@@ -12,7 +12,7 @@ Table table;
 
 void setup() {
   size(1000, 600, OPENGL);
-  table = loadTable("points2.csv", "header");
+  table = loadTable("points1423.csv", "header");
 }
 
 void draw() {
@@ -28,4 +28,3 @@ void draw() {
     p.display();
   }
 }
-

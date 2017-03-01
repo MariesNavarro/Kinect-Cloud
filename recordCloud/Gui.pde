@@ -8,7 +8,6 @@ int marginLeft = 10;
 //Grupo Navegacion
 Group g1 = control.addGroup("Navegacion")
 .setLabel("Navegacion")
-.setFont(Titles)  
 .setColorLabel(color(0))
 .setColorBackground(color(255))
 .setColorForeground(color(255))
@@ -18,7 +17,6 @@ Group g1 = control.addGroup("Navegacion")
 
 //Slider Zoom
 control.addSlider("zoom")
-.setFont(Values)
 .setColorLabel(color(255))
 .setColorValue(color(0))
 .setColorActive(color(255))
@@ -32,7 +30,6 @@ control.addSlider("zoom")
 
 //Slider RotacionY
 control.addSlider("rotacion_Y")
-.setFont(Values)
 .setColorLabel(color(255))
 .setColorValue(color(0))
 .setColorActive(color(255))
@@ -46,7 +43,6 @@ control.addSlider("rotacion_Y")
 
 //Slider RotacionX
 control.addSlider("rotacion_X")
-.setFont(Values)
 .setColorLabel(color(255))
 .setColorValue(color(0))
 .setColorActive(color(255))
@@ -60,7 +56,6 @@ control.addSlider("rotacion_X")
 
 //Slider ejeY
 control.addSlider("eje_y")
-.setFont(Values)
 .setColorLabel(color(255))
 .setColorValue(color(0))
 .setColorActive(color(255))
@@ -74,7 +69,6 @@ control.addSlider("eje_y")
 
 //Slider ejeX
 control.addSlider("eje_x")
-.setFont(Values)
 .setColorLabel(color(255))
 .setColorValue(color(0))
 .setColorActive(color(255))
@@ -88,7 +82,6 @@ control.addSlider("eje_x")
 
 //Button Reset Navigation
 control.addButton("Reset")
-.setFont(Values)
 .setColorLabel(color(0))
 .setColorActive(color(190))
 .setColorForeground(color(255))
@@ -100,7 +93,6 @@ control.addButton("Reset")
 
 //Grupo Nube de Puntos
 Group g2 = control.addGroup("Nube de Puntos")
-.setFont(Titles)
 .setColorLabel(color(0))
 .setColorBackground(color(255))
 .setColorForeground(color(255))
@@ -110,7 +102,6 @@ Group g2 = control.addGroup("Nube de Puntos")
 
 //Slider Depth
 control.addSlider("depth")
-.setFont(Values)
 .setColorLabel(color(255))
 .setColorValue(color(0))
 .setColorActive(color(255))
@@ -124,7 +115,6 @@ control.addSlider("depth")
 
 //Slider Calidad
 control.addSlider("calidad")
-.setFont(Values)
 .setColorLabel(color(255))
 .setColorValue(color(0))
 .setColorActive(color(255))
@@ -139,7 +129,6 @@ control.addSlider("calidad")
 
 //Button Reset Nube de Puntos
 control.addButton("ResetCloud")
-.setFont(Values)
 .setLabel("Reset")
 .setColorLabel(color(0))
 .setColorActive(color(190))
@@ -152,7 +141,6 @@ control.addButton("ResetCloud")
 
 //Grupo Salvar Datos
 Group g3 = control.addGroup("Salvar Datos")
-.setFont(Titles)
 .setColorLabel(color(0))
 .setColorBackground(color(255))
 .setColorForeground(color(255))
@@ -162,7 +150,6 @@ Group g3 = control.addGroup("Salvar Datos")
 
 control.addButton("guardar")
 .setLabel("Capturar")
-.setFont(Values)
 .setColorLabel(color(0))
 .setColorActive(color(190))
 .setColorForeground(color(255))
@@ -173,7 +160,6 @@ control.addButton("guardar")
 
 control.addToggle("toggleTxt")
 .setLabel(".Txt")
-.setFont(Values)
 .setColorLabel(color(255))
 .setColorActive(color(50))
 .setColorForeground(color(255))
@@ -186,7 +172,6 @@ control.addToggle("toggleTxt")
 
 control.addToggle("toggleCsv")
 .setLabel(".Csv")
-.setFont(Values)
 .setColorLabel(color(255))
 .setColorActive(color(50))
 .setColorForeground(color(255))
@@ -199,7 +184,6 @@ control.addToggle("toggleCsv")
 
 control.addToggle("toggleStl")
 .setLabel(".Stl")
-.setFont(Values)
 .setColorLabel(color(255))
 .setColorActive(color(50))
 .setColorForeground(color(255))
@@ -212,7 +196,6 @@ control.addToggle("toggleStl")
 
 //Grupo Salir
 Group g4 = control.addGroup("General")
-.setFont(Titles)
 .setColorLabel(color(0))
 .setColorBackground(color(255))
 .setColorForeground(color(255))
@@ -221,7 +204,6 @@ Group g4 = control.addGroup("General")
 .setBackgroundHeight(40);
 
 control.addButton("salir")
-.setFont(Values)
 .setColorLabel(color(0))
 .setColorActive(color(190))
 .setColorForeground(color(255))
